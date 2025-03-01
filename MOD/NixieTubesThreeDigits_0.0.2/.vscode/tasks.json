@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Batch File",
+			"type": "shell",
+			"command": "X:\\Games\\Mods\\Factorio\\NixieTubesThreeDigits\\deploy.bat",			
+			"options": {
+				"cwd": "X:\\Games\\Mods\\Factorio\\NixieTubesThreeDigits"
+			}
+		}
+	]
+}

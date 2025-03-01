@@ -1,0 +1,12 @@
+{
+  "name": "NixieTubesThreeDigits",
+  "version": "0.0.2",
+  "factorio_version": "1.1",
+  "title": "Nixie Tubes [Three Digits]",
+  "author": "GopherAtl, justarandomgeek, ArcusVonSinus",
+  "description": "Adds nixie tubes, for displaying values from a connected circuit network. Adds a three digit version of the nixie tubes.",
+  "dependencies": ["base", "simhelper", "! nixie-tubes", "?signalstrings", "?PickerExtended"],
+  "package":{
+    "ignore":[ "*.pdn", "*.xcf" ]
+  }
+}

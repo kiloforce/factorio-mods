@@ -1,0 +1,13 @@
+{
+  "name": "color-coding",
+  "version": "2.0.3",
+  "title": "Color Coding",
+  "author": "D3Phoenix, justarandomgeek",
+  "homepage": "",
+  "factorio_version": "2.0",
+  "dependencies": ["base"],
+  "description": "Adds color-coded indicator lamps, and concrete.",
+  "package": {
+    "ignore": ["**/*.sh"]
+  }
+}

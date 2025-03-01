@@ -1,0 +1,122 @@
+//additional colors//
+Supported mods:
+
+ Elevated Rails
+ Quality
+ Factorio: Space Age
+
+5Dim's mod - Bot Recaller
+5Dim's mod - New Automatization
+5Dim's mod - New Battlefield
+5Dim's mod - New Decoration
+5Dim's mod - New Energy
+5Dim's mod - New Equipment
+5Dim's mod - New Logistic
+5Dim's mod - New Mining
+5Dim's mod - New Module
+5Dim's mod - New Nuclear
+5Dim's mod - New Resources
+5Dim's mod - New Storage
+5Dim's mod - New Trains
+5Dim's mod - New Transport
+5Dim's mod - Ores
+5Dim's mod - Trade
+5Dim's mod - Vehicle
+AAI Containers & Warehouses
+AAI Industry
+AAI Programmable Structures
+AAI Programmable Vehicles
+AAI Signal Transmission
+AAI Vehicles: Chaingunner
+AAI Vehicles: Flame Tank
+AAI Vehicles: Flame Tumbler
+AAI Vehicles: Hauler
+AAI Vehicles: Laser Tank
+AAI Vehicles: Miner
+AAI Vehicles: Warden
+AAI Zones
+Aluminum
+Angel's Addons - Storage Options
+Angel's Bio Processing
+Angel's Industries
+Angel's Petrochemical Processing
+Angel's Refining
+Angel's Smelting
+Bio Industries
+Bob's Assembling machines
+Bob's Electronics
+Bob's Enemies
+Bob's Greenhouse mod
+Bob's Logistics mod
+Bob's Metals, Chemicals and Intermediates
+Bob's Mining
+Bob's Modules
+Bob's Ores
+Bob's Power
+Bob's Revamp mod
+Bob's Tech
+Bob's Vehicle Equipment
+Bob's Warfare
+Dark Matter Replicators .18+
+Deadlock-Mod Integrations
+Deadlock's Stacking Beltboxes & Compact Loaders
+Dectorio
+DirtyMining
+FactorioExtended-Armory
+FactorioExtended-Core
+FactorioExtended-Energy
+FactorioExtended-Equipment
+FactorioExtended-Logistics
+FactorioExtended-Machines
+FactorioExtended-Trains
+FactorioExtended-Transport
+Foundry
+Graphite & Diamonds
+Industrial Revolution 2
+Industrial Revolution 3
+Jetpack
+Krastorio 2
+Krastorio Legacy
+Lead
+Liquify 3: Mining Edition
+MadClown01's AngelBob Nuclear Extension
+MadClown01's Extended AngelBob Minerals
+MadClown01's Nuclear Extension
+MadClown01's Processing
+MadClown01's Science
+Natural Gas
+Noble Metals
+Nullius
+Omnicrystal
+Omnienergy
+Omnifluid
+Omnimatter
+Omniscience
+Omniwood
+Pressurized fluids
+Pyanodons AlienLife
+Pyanodons Coal Processing
+Pyanodons Fusion Energy
+Pyanodons HighTech
+Pyanodons Industry
+Pyanodons Petroleum Handling
+Pyanodons Raw Ores
+Realistic Ores
+Realistic Reactor Glow
+Reverse Factory
+Salt & Chlorine
+ShinyAngelGFX
+ShinyBobGFX
+Silica & Silicon
+Space Exploration
+Tin
+Titanium
+Tungsten
+Xander Mod
+Yuoki Industries
+Zirconium
+
+Exempted mods:
+
+Shuttle Train Continued
+Fully Automated Rail Layer
