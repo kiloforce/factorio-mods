@@ -1,0 +1,12 @@
+{
+  "name": "nixie-tubes-fix",
+  "version": "2.0.1",
+  "factorio_version": "2.0",
+  "title": "Nixie Tubes Fix",
+  "author": "GopherAtl, justarandomgeek",
+  "description": "Adds nixie tubes, for displaying values from a connected circuit network.",
+  "dependencies": ["base"],
+  "package":{
+    "ignore":[ "*.pdn", "*.xcf" ]
+  }
+}
