@@ -1,0 +1,64 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.0.9
+Date: 2025-01-06
+  Changes:
+    - added support for Zithorian's Extra Storage Tanks mod
+    - updated mod description
+  Locale:
+    - Updated locales from Crowdin: 🇨🇿 Czech (cs), 🇩🇪 German (de), 🇪🇸 Spanish (es-ES), 🇫🇷 French (fr), 🇭🇺 Hungarian (hu), 🇯🇵 Japanese (ja), 🇰🇷 Korean (ko), 🇵🇱 Polish (pl), 🇷🇺 Russian (ru), 🇺🇦 Ukrainian (uk), 🇨🇳 Chinese Simplified (zh-CN), 🇹🇼 Chinese Traditional (zh-TW)
+---------------------------------------------------------------------------------------------------
+Version: 0.0.8
+Date: 20DEC2024
+  Bugfixes:
+    - ensure that all entities added to planner filters have a valid prototypes
+---------------------------------------------------------------------------------------------------
+Version: 0.0.7
+Date: 01DEC2024
+  Changes:
+    - added support for color-coded pipes from the flow control mod
+    - added support for color-coded pipes from the storage tank mk2 mod
+---------------------------------------------------------------------------------------------------
+Version: 0.0.6
+Date: 23NOV2024
+  Changes:
+    - added support for color-coded pipes from the pipe_plus mod
+  Bugfixes:
+    - fixed that the planner tool could repaint pipes that were already painted the same color (again)
+---------------------------------------------------------------------------------------------------
+Version: 0.0.5
+Date: 16NOV2024
+  Changes:
+    - best guess mode now defaults to the fluid-color when it can't find color
+  Bugfixes:
+    - hardcoded shortcut icon sizes to prevent errors if the base shortcut icon size is changed
+  Locale:
+    - updated German (de) locale from Crowdin
+---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+Date: 10NOV2024
+  Changes:
+    - added support for Factorio 2.0
+  Bugfixes:
+    - fixed that already painted pipes could be painted again with the same color when using the planner tool
+  Locale:
+    - added cs, de, es-ES, fr, hu, ja, ko, pl, ru, uk, zh-CN, and zh-TW locale from Crowdin
+---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+Date: 03AUG2024
+  Changes:
+    - added support for updated naming convention of color coded pipes v0.0.7
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date: 01JUL2024
+  Changes:
+    - added per-player planner mode mod setting. "Best Guess" attempts to match the fluid color to one of the rainbow colored pipes, "Perfect Match" uses pipes with the exact color of the fluid
+  Bugfixes:
+    - fixed error when using the alt/reverse modes of other modded planner tools
+    - fixed duplicate entity glitch when a fast-replace action failed
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 30JUN2024
+  Changes:
+    - initial release to the mod portal
+  Features:
+    - added a planner tool for automatically color coding pipes based on their contents

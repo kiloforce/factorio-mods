@@ -1,0 +1,195 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.2.3
+Date: 2025-01-08
+  Bugfixes:
+    - fixed incorrect ingredient count for recipes with multiple results when using base-item ingredients
+---------------------------------------------------------------------------------------------------
+Version: 1.2.2
+Date: 2025-01-05
+  Changes:
+    - added color coded variants and remnants for tanks from Zithorian's Extra Storage Tanks for 2.0
+    - updated crafting tab icon with custom art by Sacred Anarchy
+    - hid the main menu simulation mod setting
+    - added optional dependencies for mods that can be color coded
+    - updated mod description
+  Locale:
+    - added ca, cs, ja, ko, pl, and zh-CN locales from Crowdin
+---------------------------------------------------------------------------------------------------
+Version: 1.2.1
+Date: 20DEC2024
+  Changes:
+    - added mod setting to move base recipes to the color-coded crafting tab
+    - re-ordered color coded recipes to more closely match the base recipe order
+    - added special icon and locale for the color coded crafting tab when base recipes are moved but all color coded recipes are hidden
+  Locale:
+    - updated locale to use sentence case
+---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: 19DEC2024
+  Changes:
+    - moved color coded pipes to a dedicated tab in the crafting menu
+---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 11DEC2024
+  Changes:
+    - fixed minor spelling errors
+    - updated readme
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 10DEC2024
+  Changes:
+    - added recipe ingredients mod setting to choose between mirroring the base recipe or using the base item as the ingredient
+    - removed .psd files from the mod package distribution
+    - restructured and simplified subgroup and order logic
+    - removed hidden legacy color mode mod setting
+    - removed legacy main menu simulation script
+  Bugfixes:
+    - fixed that hidden color coded pipes could not be used to upgrade existing pipes
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 01DEC2024
+  Changes:
+    - updated /paint-pipes and /unpaint-pipes chat commands to support modded pipes
+    - updated /paint-pipes to include optional <color mode: fluid|rainbow> and <bots required: true|false> parameters
+    - updated /unpaint-pipes to include optional <bots required: true|false> parameter
+    - updated main menu simulation integration to use the /paint-pipes command with "fluid, false" parameter
+---------------------------------------------------------------------------------------------------
+Version: 1.0.5
+Date: 29NOV2024
+  Changes:
+    - added color coded variants and remnants for pipes from the Storage Tank Mk2 mod
+    - updated compatibility with No Pipe Touching mod to include rainbow colored pipes
+---------------------------------------------------------------------------------------------------
+Version: 1.0.4
+Date: 28NOV2024
+  Changes:
+    - added updated color coded remnants for the Pipe Plus mod
+    - moved overlay graphics files to their base folder
+    - removed unused prototype properties to reduce PrototypeLoader warnings
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 27NOV2024
+  Changes:
+    - added color coded variants and remnants for pipes from the Flow Control mod
+    - updated compatibility with No Pipe Touching mod
+    - updated item/recipe/entity sorting and subgroup order
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 22NOV2024
+  Features:
+    - added color coded variants and remnants for pipes from the Pipe Plus mod
+  Changes:
+    - cleaned up the storage tank overlay mask
+  Bugfixes:
+    - added proper handling for fluids with colors defined in the 1-255 range
+    - fixed that pipe-to-ground recipes produced only produced 1 item instead of 2
+    - fixed that changes to the base recipe results by other mods were ignored
+    - fixed that recipe icons were not color-coded if other mods added icons to the recipe
+    - fixed that color coded pipes did not always capture existing localised names
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 16NOV2024
+  Changes:
+    - enhanced compatibility with No Pipe Touching mod
+    - re-added 0.0.7 migration script
+    - added colors to the corpse icons
+  Bugfixes:
+    - fixed that Color Coded Pipes was inadvertently changing the alpha value of fluid colors
+    - fixed that some factoriopedia simulations showed base entities instead of color coded entities
+    - fixed that hidden color coded pipes were visible in factoriopedia
+  Locale:
+    - updated German (de) locale from Crowdin
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 10NOV2024
+  Changes:
+    - updated to support Factorio 2.0
+    - updated overlay masks for new pipe, pipe-to-ground, pump, and storage-tank graphics
+    - removed base patch graphics layer
+    - removed 0.0.7 migration script
+---------------------------------------------------------------------------------------------------
+Version: 0.0.9
+Date: 08OCT2024
+  Changes:
+    - updated mod description
+  Locale:
+    - added German (de) locale from Crowdin
+    - added French (fr) locale from Crowdin
+    - added Portuguese (pt-BR) locale from Crowdin
+    - added Russian (ru) locale from Crowdin
+    - added Ukrainian (uk) locale from Crowdin
+---------------------------------------------------------------------------------------------------
+Version: 0.0.8
+Date: 19AUG2024
+  Changes:
+    - patched pipe and pipe-to-ground graphics to make entities render correctly as ghosts
+    - restructured and organized graphics files and photoshop documents
+  Bugfixes:
+    - fixed graphical overlap issue when pipes of different colors are built next to eachother
+    - fixed graphical overlap issue when krastorio2, aai, or other mods that add a "pipe patch" are enabled
+---------------------------------------------------------------------------------------------------
+Version: 0.0.7
+Date: 03AUG2024
+  Changes:
+    - added "color-coded-" identifier to prototype names to avoid namespace conflicts with other mods (i.e. bob's logistics)
+    - added migration script to update existing items, recipes, and entities to the new name format
+    - added compatibility for artisanal reskins: bobs mods mod (copy icon data from prototype.icons[1] if available)
+    - added compatibility for mods that remove either the normal or high resolution pipe/pump/tank graphics
+    - the /paint-pipes chat command now attempts to re-paint already painted pipes
+  Bugfixes:
+    - fixed that color coded recipes were not always disabled at the start of a game when they were unlockable from technology
+    - fixed that /paint-pipes and /unpaint-pipes chat commands could sometimes create multiple pipes in the same tile
+---------------------------------------------------------------------------------------------------
+Version: 0.0.6
+Date: 30JUN2024
+  Features:
+    - added color coded pumps
+    - reworked graphics to use tintable overlays
+    - added pipe variants for all enabled fluids
+    - added mod settings to toggle visibility of rainbow and fluid colored recipes
+  Changes:
+    - cleaned up the pipe window mask
+    - added hidden mod settings to define rainbow color pipe colors
+    - removed the "color mode" mod setting
+    - improved the /paint-pipes chat command to add compatibility with color coded pipe planner mod
+    - added an /unpaint-pipes chat command
+---------------------------------------------------------------------------------------------------
+Version: 0.0.5
+Date: 29APR2024
+  Features:
+    - added color coded storage tanks
+    - added the /paint-pipes chat command to upgrade base pipes to a colored variant based on their contents
+  Graphics:
+    - fixed missing couplings and shadow layers in corner-up-right pipe graphics
+    - removed @0.5x scale item graphics files
+  Changes:
+    - moved variant creation to data-updates to capture more mod changes to the base prototypes
+---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+Date: 23APR2024
+  Features:
+    - added color coded pipes to the main menu simulations
+    - added startup mod setting to toggle main menu simulation integration
+  Locale:
+    - changed the "neon" color mode setting name to "like new"
+  Changes:
+    - added photoshop automation script to export the color coded pipe graphics
+    - restructured the graphics folder to support the photoshop script
+---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+Date: 15APR2024
+  Bugfixes:
+    - fixed error when loading pipe remnant graphics for non-hr sprites
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date: 14APR2024
+  Features:
+    - added neon color mode for all pipes and pipe-to-ground variants
+    - added startup mod setting to switch between the neon and weathered color modes
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 11APR2024
+  Changes:
+    - initial release to the mod portal
+  Features:
+    - added red, orange, yellow, green, blue, purple, pink, black, and white pipe and pipe-to-ground variants

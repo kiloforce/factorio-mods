@@ -1,0 +1,21 @@
+{
+    "name": "color-coded-pipe-planner",
+    "version": "0.0.9",
+    "title": "Color Coded Pipe Planner",
+    "author": "asher_sky",
+    "contact": "",
+    "homepage": "",
+    "description": "A planner tool for automatically color coding pipes based on their contents",
+    "factorio_version": "2.0",
+    "dependencies": [
+        "base",
+        "color-coded-pipes > 0.0.6"
+    ],
+    "package": {
+        "ignore": [
+            "**/*.psd"
+        ],
+        "sync_portal_details": true,
+        "readme": "readme.md"
+    }
+}

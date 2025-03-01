@@ -1,0 +1,50 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.0.6
+Date: 16DEC2024
+  Bugfixes:
+    - fixed mod settings initialization in multiplayer
+---------------------------------------------------------------------------------------------------
+Version: 0.0.5
+Date: 15DEC2024
+  Bugfixes:
+    - fixed trail generation in the main menu simulations
+---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+Date: 14DEC2024
+  Changes:
+    - updated to support Factorio 2.0
+    - added pride flag and country flag animated color themes
+    - added support for player trails in the main menu simulations
+    - reduced transparency of trail component graphic
+    - made "color" and "glow" mod settings hidden
+    - removed color-sync mod setting
+    - added "enabled" mod setting
+    - reversed the color order for the rainbow color themes
+    - glow intensity is more consistent across all trail sizes
+    - changed generation distance threshold from .33 to .29 to reduce flickering at default walking speed and while hovering in a mech suit
+    - refactored code to improve performance
+  Locale:
+    - clarified locale strings
+---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+Date: 05JAN2024
+  Changes:
+    - changed trail generation from on_player_changed_position to on_tick for smoother and more consistent trails
+    - slightly slowed the speed of all speed settings
+    - updated thumbnail
+  Bugfixes:
+    - fixed memory leak
+    - added migration to reset global mod data
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date: 25APR2023
+  Changes:
+    - fixed issue when mod settings were changed by another mod or script
+    - fixed that trails synced to the player's color could not be tapered
+    - removed script impact warnings from mod setting descriptions and tooltips
+    - updated liscense to reflect proper mod name
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 15JAN2022
+  Changes:
+    - initial release on the mod portal

@@ -1,0 +1,22 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+Date: 20JUN2023
+  Changes:
+    - resolved goto scope issue in main menu simulations when other mods add locals to the update string
+---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+Date: 20JUN2023
+  Changes:
+    - reduced frequency of mod setting lookups
+    - increased vehicle color update frequency
+    - added rainbow vehicles to the main menu simulations
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date: 02JAN2021
+  Changes:
+    - implemented a custom vehicle tracking system to significantly reduce UPS issues on large maps
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 30DEC2021
+  Changes:
+    - initial release on mod portal

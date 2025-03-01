@@ -1,0 +1,165 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 2025-01-14
+  Changes:
+    - trains with a color matching the value of the unpainted locomotive color mod setting from Automatic Train Painter mod will be treated as unpainted and will generate trails according to the Default Trail Color mod setting
+    - added /reset-train-colors and /reset-station-colors commands to reset all train and station colors to the default color (nil)
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 14DEC2024
+  Changes:
+    - added interpolation between colors in the animated color themes
+  Bugfixes:
+    - fixed that trails were only drawn for trains on players physical surface
+  Locale:
+    - Updated German (de) locale from Crowdin
+    - updated Russian (ru) locale from Crowdin
+    - updated Ukrainian (uk) locale from Crowdin
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 28OCT2024
+  Changes:
+    - added support for Factorio 2.0
+    - slightly lowered the intensity of trail glow
+    - changed trail rendering limit maximum from 1 to 0.75 tiles
+    - updated main menu integration to use .mods instead of .update
+    - updated description
+  Locale:
+    - renamed color palette to color theme
+    - added Catalan (ca) locale from Crowdin
+    - added Czech (cs) locale from Crowdin
+    - added German (de) locale from Crowdin
+    - added French (fr) locale from Crowdin
+    - added Italian (it) locale from Crowdin
+    - added Polish (pl) locale from Crowdin
+    - added Brazilian Portuguese (pt-BR) locale from Crowdin
+    - added Russian (ru) locale from Crowdin
+    - added Swedish (sv-SE) locale from Crowdin
+    - added Turkish (tr) locale from Crowdin
+    - added Ukrainian (uk) locale from Crowdin
+---------------------------------------------------------------------------------------------------
+Version: 0.0.15
+Date: 01AUG2023
+  Bugfixes:
+    - reduced trail ballooning for trains at low speeds
+    - fixed random palette selection sometimes showing only white trails
+    - fixed random palette constantly changing in main menu simulations
+  Optimizations:
+    - limited trail segment drawing to a maximum of 1 per tile
+  Changes:
+    - modified colors of the "natural" palettes
+    - removed navy blue from India flag palette
+    - added 22 additional national flag palettes
+  Locale:
+    - changed random palette locale scheme from "Random: Type" to "Type: Random"
+---------------------------------------------------------------------------------------------------
+Version: 0.0.14
+Date: 01JUL2023
+  Bugfixes:
+    - fixed drawing trails on some surfaces when other surfaces with active trains were not visible
+  Optimizations:
+    - adjusted train length is now precomputed on active train registration and stored in the train data table
+    - moved random[type] color palette lookup table creation to file scope
+    - moved global registrations to mod initialization
+  Changes:
+    - updated mod description
+---------------------------------------------------------------------------------------------------
+Version: 0.0.13
+Date: 30JUN2023
+  Bugfixes:
+    - moved automatic train painter unpainted locomotive default value configuration to data-updates
+---------------------------------------------------------------------------------------------------
+Version: 0.0.12
+Date: 29JUN2023
+  Optimizations:
+    - performance update: now only active trains are processed, and trails for only drawn for trains on visible surfaces. huge thank you to BurninSun on github for the ideas :)
+    - reduced render preparation and script update time with refined trail smoothing for trains at all speeds; implemented limit of 3 trail segments drawn per tile
+  Major Features:
+    - added pride flag color palettes for animated train trails
+    - added seasonal color palettes for animated train trails
+    - added railway company color palettes for animated train trails
+    - added natural color palettes for animated train trails
+    - added national flag color palettes for animated train trails
+    - added random color palette option for each category
+  Minor Features:
+    - increased variable trail length to + 0.5 seconds per carriage
+    - added variable trail scale based on train speed, with minimum of 2/3 the scale specified in mod settings
+    - combined color and glow toggle mod settings into a single dropdown selector
+  Locale:
+    - renamed rainbow palette and rainbow speed mod settings to animation palette and animation speed
+    - modified setting descriptions for clarity
+  Modding:
+    - added integration with automatic train painter mod to set the default unpainted locomotive color to empty. with both mods using default options this allowed unpainted trains to use the animated color palettes
+    - added compatibility for other mods that add update functions to the main menu simulations
+  Changes:
+    - updated license year to 2023
+---------------------------------------------------------------------------------------------------
+Version: 0.0.11
+Date: 14AUG2022
+  Changes:
+    - added train trails to the main menu simulations
+    - fix crash when loading a save with the trans pride palette setting enabled
+---------------------------------------------------------------------------------------------------
+Version: 0.0.10
+Date: 31JUL2022
+  Changes:
+    - trail length is now somewhat affected by train length
+    - removed info tooltip from mod setting names since it is now added automatically
+    - fixed crash when trans color trails were selected while the trans train trails mod was enabled
+---------------------------------------------------------------------------------------------------
+Version: 0.0.9
+Date: 30APR2022
+  Changes:
+    - trains with no color now generate rainbow trials by default
+    - significantly reduced script impact when passenger mode is enabled
+    - rewrote mod settings tracking and storage to slightly increase performance
+    - rewrote train tracking and storage to slightly increase performance
+    - slightly improved trail smoothing for trains at low and very low speeds
+---------------------------------------------------------------------------------------------------
+Version: 0.0.8
+Date: 28JAN2022
+  Changes:
+    - implemented custom tracking and storage of train data to reduce the number of API calls required
+    - trail color is now smoother for trains at low speeds
+    - minor changes to trail generation script to reduce the number of calculations needed on maps with trains mostly traveling at higher speeds
+    - minor change to mod description
+---------------------------------------------------------------------------------------------------
+Version: 0.0.7
+Date: 20JAN2022
+  Changes:
+    - minor change to trail generation script to reduce the total number of calculations needed at runtime
+---------------------------------------------------------------------------------------------------
+Version: 0.0.6
+Date: 16JAN2022
+  Changes:
+    - minor change to rainbow generation script to reduce the total number of calculations needed at runtime
+    - added setting to allow trains with the default color to create trails (disabled by default)
+    - updated mod description
+---------------------------------------------------------------------------------------------------
+Version: 0.0.5
+Date: 15JAN2022
+  Changes:
+    - hotfix to allow passenger mode to work even when train has default color
+---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+Date: 15JAN2022
+  Changes:
+    - fixed spelling in some setting descriptions
+    - train trails can now be the locomotive color when using passenger mode
+---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+Date: 15JAN2022
+  Changes:
+    - fixed that trains moving slowly would cause very bright glow. trail creation now considers train speed as a factor
+    - added setting to only make trails for trains with passengers on them
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date: 14JAN2022
+  Changes:
+    - increased the default scale size
+    - added "performance mode" option to change the performance impact the mod demands of the game
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 11JAN2022
+  Changes:
+    - initial release on the mod portal

@@ -1,0 +1,26 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+Date: 20JUN2023
+  Changes:
+    - updated mod license
+    - removed info icons from mod setting names since base game now adds them automatically
+    - reduced frequency of mod setting lookups
+    - increased locomotive color update frequency
+    - added rainbow trains to the main menu simulations
+---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+Date: 30JAN2022
+  Changes:
+    - add custom train tracking and storage to reduce the number of API calls required
+    - optimization of setting value lookups to reduce the number of API calls required
+    - minor change to the rainbow color generation script to reduce performance impact
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date: 29NOV2021
+  Changes:
+    - release correct version
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 29NOV2021
+  Changes:
+    - initial release on mod portal
