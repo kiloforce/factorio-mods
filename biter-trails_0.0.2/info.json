@@ -1,0 +1,14 @@
+{
+  "name": "biter-trails",
+  "version": "0.0.2",
+  "title": "Biter Trails",
+  "author": "asher_sky",
+  "contact": "",
+  "homepage": "",
+  "description": "Biters create a glowing colored trail wherever they go \n\nVery configurable",
+  "factorio_version": "1.1",
+  "dependencies": [
+	"base",
+  "flib"
+	]
+}
