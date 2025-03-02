@@ -1,0 +1,216 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.4.2
+Date: 2025.02.10
+  Changes:
+    - Fixed a crash related to map editor.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.1
+Date: 2025.02.04
+  Changes:
+    - Updated Russian (ru) locale. (Thanks to Astorin!)
+---------------------------------------------------------------------------------------------------
+Version: 1.4.0
+Date: 2025.02.03
+  Changes:
+    - Parallax should now function correctly in multiplayer when multiple players are looking at the same planet.
+    - (This was a fairly big rewrite, so there may be random crashes. I've done my best to test it, but please report any issues you find and I'll try to fix them asap.)
+---------------------------------------------------------------------------------------------------
+Version: 1.3.1
+Date: 2025.01.30
+  Changes:
+    - Improved support with PlanetsLib, cleaner implementation. (Thanks thesixthroc!)
+    - Preemptively fixed a potential crash if a moon has no starmap icon. (Might have been fine as is, but better safe than sorry)
+---------------------------------------------------------------------------------------------------
+Version: 1.3.0
+Date: 2025.01.30
+  Changes:
+    - Nearby planets and moons are now rendered in the background of main render. Only works for moons added via PlanetsLib. (Thanks MeteorStorm/nicholasgower!)
+---------------------------------------------------------------------------------------------------
+Version: 1.2.16
+Date: 2025.01.12
+  Changes:
+    - Fixed a crash when loading a scenario with the map editor while Editor Extensions is installed. (Added check for LuaPlayer being invalid)
+---------------------------------------------------------------------------------------------------
+Version: 1.2.15
+Date: 2025.01.03
+  Changes:
+    - Added Italian (it) locale. (Thanks to Momift!)
+---------------------------------------------------------------------------------------------------
+Version: 1.2.14
+Date: 2025.01.02
+  Changes:
+    - Added Japanese (ja) locale. (Thanks to Sakuro!)
+---------------------------------------------------------------------------------------------------
+Version: 1.2.13
+Date: 2025.01.01
+  Changes:
+    - Added Ukrainian (uk) locale. (Thanks to Click0!)
+---------------------------------------------------------------------------------------------------
+Version: 1.2.12
+Date: 2024.12.26
+  Changes:
+    - Added Russian (ru) locale. (Thanks to Astorin!)
+---------------------------------------------------------------------------------------------------
+Version: 1.2.11
+Date: 2024.12.25
+  Changes:
+    - Mods can now set custom scales for individual planets, meaning modded planets can appear larger or smaller than others as desired.
+    - Mods can also override the filepath for planet renders directly, if they don't want to change the starmap icon. (Replacing the starmap icon still works too.)
+    - (It should be fairly easy to add other overrides if needed, so feel free to request anything else you might want to customize via modding.)
+    - Slightly shorter console logging messages, and prevented some console warnings. (Unused mipmaps)
+---------------------------------------------------------------------------------------------------
+Version: 1.2.10
+Date: 2024.12.24
+  Changes:
+    - Fixed an issue when space locations defined a starmap_icon_size but had no starmap_icon.
+    - Removed icon fallback as it seems it may have never been working anyway. Modded planets now must define a starmap_icon to be rendered.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.9
+Date: 2024.12.20
+  Changes:
+    - Added French (fr) locale. (Thanks to Danura30082!)
+---------------------------------------------------------------------------------------------------
+Version: 1.2.8
+Date: 2024.12.18
+  Changes:
+    - Added Polish (pl) locale. (Thanks to Grofab95!)
+---------------------------------------------------------------------------------------------------
+Version: 1.2.7
+Date: 2024.12.15
+  Changes:
+    - Updated German (de) locale.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.6
+Date: 2024.12.08
+  Changes:
+    - Initial scale can now be configured. Setting to the same as normal planet scale will effectively disable scaling during animations.
+    - Mods can now configure certian locations to not show a planet render. A new config option can override this functionality if desired.
+    - Added German (de) locale. (Thanks to OC1024!)
+    - (Note: This will likely be the last features update for a short while, as I will be unable to code for a few weeks starting tomorrow.)
+---------------------------------------------------------------------------------------------------
+Version: 1.2.5
+Date: 2024.12.06
+  Changes:
+    - Probably fixed a 1.0.7 migration issue when a save has invalid LuaRenders before updating.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.4
+Date: 2024.12.04
+  Changes:
+    - Fix for planets jumping to new position when leaving orbits during arrival animation.
+    - Default x position moved slightly further left to help hide known shadow issue when parallax is enabled. (Platform shadows show on planet on right side)
+    - Default animation duration increased to 5s, as a few people have mentioned the default is a little fast. (Feel free to make it even longer of course)
+---------------------------------------------------------------------------------------------------
+Version: 1.2.3
+Date: 2024.12.04
+  Changes:
+    - Added zh-CN locale. (Thanks to PlexPt!)
+---------------------------------------------------------------------------------------------------
+Version: 1.2.2
+Date: 2024.12.04
+  Changes:
+    - Hopefully fixed invalid render crashes for good. 
+---------------------------------------------------------------------------------------------------
+Version: 1.2.1
+Date: 2024.12.03
+  Changes:
+    - Fixed a migration issue when loading a previous save with shrinking/growing planets.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: 2024.12.03
+  Changes:
+    - Planet arrival/departure now eases in and out, and is overall much nicer.
+    - Initial distance and parallax factor default values adjusted.
+    - Internal changes to render logic, should make implementing specific future features easier, and *might* even be more performant.
+    - Host now has priority when parallax has multiple players looking at the same planet.
+    - Multiple viewers no longer cause planets to rotate faster.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.3
+Date: 2024.12.03
+  Changes:
+    - When adding this mod to an existing save, or when regen-renders is ticked, the mod will generate planet renders for all platforms that need them. (No more manual toggling of paused state!)
+    - Performance and code size improvements for planet rotation, now only rotating when players are looking. (Side effect: Planets rotate faster when multiple players are looking)
+    - Default rotation speed reduced slightly. You can change it back if wanted ofc.
+    - Removed optional dependencies for planet mods. (They are all supported by default now, so no need to specify them)
+---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 2024.12.03
+  Changes:
+    - Added ability to specify a planet angle, or optionally allow planet to rotate over time.
+    - Added option to delete all existing planet renders, so that you can generate new ones for stationary platforms.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 2024.12.03
+  Changes:
+    - Parallax can now be toggled at runtime, without restarting the game.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 2024.12.02
+  Changes:
+    - Added planet parallax effect. (Can be disabled or customized in settings)
+    - (Note that this is a WIP implementation. Parallax in multiplayer is functional but not great; See known issues on the mod page for more info.)
+---------------------------------------------------------------------------------------------------
+Version: 1.0.10
+Date: 2024.12.01
+  Changes:
+    - Planet renders are now cleaned up when a platform is deleted.
+    - Hopefully fixed a crash where a shrinking planet render becomes invalid. (Or is invalid and starts shrinking, couldn't reproduce.)
+---------------------------------------------------------------------------------------------------
+Version: 1.0.9
+Date: 2024.12.01
+  Changes:
+    - Much nicer internal logic for planet animation. No change to functionality.
+    - Added config options for planet position, spawn position, size and animation duration. More options coming soon. (Like non-linear animation)
+    - Changed some default values for planet renders. Overall, default animation is slower, and planet is smaller than previous versions to help hide pixelation.
+    - Fixed an issue where planet renders could become stuck if arriving at a planet within a few seconds of departing from the same planet.
+    - Locale added, just settings for now.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.8
+Date: 2024.12.01
+  Changes:
+    - Large planet sprites now render smaller, so that they aren't massive compared to base game planets.
+    - (Small sprites are unaffected currently, and will still appear smaller than base planets.)
+    - Removed .git files from mod upload. Sorry about that.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.7
+Date: 2024.12.01
+  Changes:
+    - Planet icons now fetched automatically, so most planet mods should be supported now.
+    - Due to new format, old planet renders are gone. Just toggle platform paused state to get a new one.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.6
+Date: 2024.12.01
+  Changes:
+    - Fixed asteroid shadows appearing on planet render. (Thanks Thaui!)
+    - Quick shuffle of mod files internally, shouldn't affect anything.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.5
+Date: 2024.11.30
+  Changes:
+    - Removed 1.0 requirement for optional mods. (Some had version 0.x.x)
+---------------------------------------------------------------------------------------------------
+Version: 1.0.4
+Date: 2024.11.30
+  Changes:
+    - Added compatibility with multiple new planet mods. (See optional dependencies)
+    - Massively reduced file size, as planet graphics are now retrieved from the respective mod/base game.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 2024.11.30
+  Changes:
+    - Fixed a migration issue in the previous version. (Hopefully)
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 2024.11.30
+  Changes:
+    - Planets now move and shrink/grow when arriving and departing orbits.
+    - Planets are slightly larger now. (Earlier it got really bad with pixels. That's fixed now.)
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2024.11.30
+  Changes:
+    - Planets are significantly less pixelated.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2024.11.30
+  Changes:
+    - Released
