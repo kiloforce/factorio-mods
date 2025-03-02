@@ -1,0 +1,20 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 2024-12-29
+  Features:
+    - Added blacklist which other modders can use the exclude their planets
+  Locale:
+    - Added mod name and description to the english locale
+  Changes:
+    - Added minimum and maximum scale settings.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2024-12-29
+  Bugfixes:
+    - Fixed crash when a planet's surface_properties weren't defined
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2024-12-28
+  Features:
+    - Added thumbnail
+    - Initial release

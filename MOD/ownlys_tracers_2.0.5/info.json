@@ -1,0 +1,11 @@
+{
+	"name": "ownlys_tracers",
+	"version": "2.0.5",
+	"title": "Bullet Tracers (Ownly's) ",
+	"author": "Kittah Khan & Ownlyme",
+	"contact":"",
+	"homepage":"", 
+	"description": "a mix of bullet tracers and distant misfires, this is how i imagined bullet trails",
+	"dependencies": ["base >= 2.0", "space-age"],
+	"factorio_version": "2.0"
+}

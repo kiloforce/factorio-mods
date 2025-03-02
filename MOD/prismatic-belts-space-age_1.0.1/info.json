@@ -1,0 +1,16 @@
+{
+    "name": "prismatic-belts-space-age",
+    "version": "1.0.1",
+    "factorio_version": "2.0",
+    "package": {
+        "git_publish_branch": "main"
+    },
+    "title": "Prismatic Belts: Space Age",
+    "author": "Kirazy",
+    "contact": "kirazy@live.com",
+    "dependencies": [
+        "space-age",
+        "~ prismatic-belts"
+    ],
+    "freezing_required": true
+}

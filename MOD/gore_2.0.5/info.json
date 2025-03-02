@@ -1,0 +1,9 @@
+{
+	"name": "gore",
+	"version": "2.0.5",
+	"title": "Gore",
+	"author": "ownlyme",
+	"description": "Custom blood colors, more FX",
+	"factorio_version": "2.0",
+	"dependencies": ["?Wave_Defense_Unlimited", "?0_16_graphics", "?space-age", "?ArmouredBiters", "?Electric_flying_enemies"]
+}

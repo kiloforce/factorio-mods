@@ -1,0 +1,20 @@
+{
+  "name": "vp-scale",
+  "version": "1.1.0",
+  "title": "Visible Planets Scale",
+  "author": "jurgy",
+  "homepage": "https://github.com/jurgyy/vp-scale",
+  "description": "Adds automatic scaling to planets rendered by Visible Planets in Space based on their gravity",
+  "factorio_version": "2.0",
+  "dependencies": [
+    "base",
+    "visible-planets >= 1.2.11"
+  ],
+  "quality_required": false,
+  "rail_bridges_required": false,
+  "space_travel_required": true,
+  "spoiling_required": false,
+  "freezing_required": false,
+  "segmented_units_required": false,
+  "expansion_shaders_required": false
+}

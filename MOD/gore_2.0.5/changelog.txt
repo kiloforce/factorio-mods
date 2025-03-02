@@ -1,0 +1,110 @@
+---------------------------------------------------------------------------------------------------
+Version: 2.0.5
+Date: 2024-11-18
+- Fixed the failed to load because of missing math.round error
+
+
+---------------------------------------------------------------------------------------------------
+Version: 2.0.4
+Date: 2024-11-15
+- Fixed an issue with the red worm decay animation
+
+---------------------------------------------------------------------------------------------------
+Version: 2.0.3
+Date: 2024-11-15
+- Fixed an issue if armoured biters isn't installed
+
+---------------------------------------------------------------------------------------------------
+Version: 2.0.2
+Date: 2024-11-14
+- Support and special setting for "ArmouredBiters" (Default: very little splatter and bigger blood puddle)
+- Support for "Electric_flying_enemies" (aka Fulgoran enemies) (and made their blood puddle black like oil)
+- Fixed the character not being able to bleed/bleeding in the wrong color on other planets
+- Changed the thumbnail and default preset again
+
+---------------------------------------------------------------------------------------------------
+Version: 2.0.1
+Date: 2024-11-13
+- Recreated dozends of graphics and ported everything to the new data formats. All the features (including blood on corpses) should work on 2.0 Space Age now
+- Full support of space age's quirks. Gleba received vanilla-colored FX and decals. Vulcanus has blood disabled
+- The settings now use the new color picker
+- The default setting is now "custom", updated the thumbnail accordingly
+- Changed the default custom colors to something entirely new, added the new preset "pink"
+- Added a new "custom/automatic" color mode that automatically matches the other colors based on your decal color
+
+---------------------------------------------------------------------------------------------------
+Version: 0.18.7
+- Added event filter to on_entity_damaged
+- On_entity_damaged blood amount is now dynamic
+- Added setting to disable on_entity_damaged bleeding (vanilla game also has some damage-bleeding)
+
+---------------------------------------------------------------------------------------------------
+Version: 0.18.6
+- Added settings to enable/disable the custom blood splashes and decals when a unit dies, since the new 0.18 particle emitters look pretty convincing.
+- Added full support for my mod "0.16 graphics" 
+- Fixed rainbow particles (kinda)
+
+---------------------------------------------------------------------------------------------------
+Version: 0.17.5
+- Reworked purple, green and puke presets to look more like in the 0.16 screenshots
+
+---------------------------------------------------------------------------------------------------
+Version: 0.17.4
+- Accidentally changed the color of the blood puddle in 0.17.3
+- Blood puddle is now enabled by default
+- Darkened (-7%) splatter, explosions & puddles to look more like in 0.16 (somehow they changed the color mapping in 0.17...)
+- Additionally darkened (-9%) and desaturated (-3%) the rainbow splatter and explosions to fit better into the game
+
+---------------------------------------------------------------------------------------------------
+Version: 0.17.3
+- Added an option to hide the blood puddle
+- Darkened and reduced transparency of the decals on the corpses
+
+---------------------------------------------------------------------------------------------------
+Version: 0.17.2
+- Added support for Wave Defense Unlimited
+- Improved Render Layer of the corpses
+
+---------------------------------------------------------------------------------------------------
+Version: 0.17.1
+- Updated for 0.17
+
+---------------------------------------------------------------------------------------------------
+Version: 0.0.12
+- Merged red-blood and custom colors versions
+- Added rainbow blood
+- Added more settings and presets
+- Added compatibility with "Z Adventure"
+
+---------------------------------------------------------------------------------------------------
+Version: 0.0.11
+- identical to 0.0.9 except that it only works with red blood
+
+---------------------------------------------------------------------------------------------------
+Version: 0.0.9
+- custom blood colors
+
+---------------------------------------------------------------------------------------------------
+Version: 0.0.7
+- added higher resolution blood particles
+- polishing
+
+---------------------------------------------------------------------------------------------------
+Version: 0.0.6
+- added bleeding on bullet/laser damage
+- added bloody worm corpses
+- added a new blood effect
+
+---------------------------------------------------------------------------------------------------
+Version: 0.0.5
+- vanilla blood particles recolored
+- bloody corpses
+- more settings in the data.lua
+
+---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+- blood stays on the floor
+
+---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+- Added low-res versions

@@ -1,0 +1,39 @@
+---------------------------------------------------------------------------------------------------
+Version: 2.0.5
+Date: 2024-12-15
+  Changes:
+    - Fixed gun turret shell particle creation distance
+    - Fixed player shotgun projectile creation distance
+
+---------------------------------------------------------------------------------------------------
+Version: 2.0.4
+Date: 2024-12-14
+  Changes:
+    - Now using a graphic based on the railgun projectile
+    - The projectile animation, the scale and the bullet speed needed to be carefully matched. I can not recommend changing the corresponding settings
+    - Since the projectile graphic is based on a space age asset, i had to add space age as a requirement
+    
+---------------------------------------------------------------------------------------------------
+Version: 2.0.3
+Date: 2024-11-29
+  Changes:
+    - Added an option to shift the character's projectile creation center a bit up so it looks slightly less weird with the mech armor
+    
+---------------------------------------------------------------------------------------------------
+Version: 2.0.2
+Date: 2024-11-29
+  Changes:
+    - Added an option to disable misfires. in that case the bullet range is unlimited and depends on the weapon/turret (enabled by default)
+    - removed a few obsolete settings
+    - new thumbnail
+    - changed mod name so it's easier to find the settings alphabetically
+    - added an option to scale the collision box
+    - added an option to enable directional targeting
+    
+---------------------------------------------------------------------------------------------------
+Version: 2.0.1
+Date: 2024-11-29
+  Changes:
+    - New tracer graphic
+    - The projectiles deal the damage instead of being cosmetic
+    - Projectiles have a collision box
